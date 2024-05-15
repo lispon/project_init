@@ -1,0 +1,4 @@
+---
+Checks: '-*,modernize-*,google-*,performance-*,portability-*,readability-*,bugprone-*,clang-analyzer-*,cppcoreguidelines-*,misc-*,mpi-*,-modernize-use-trailing-return-type'
+HeaderFilterRegex: '^(?!baiduSDK/).*'
+WarningsAsErrors: '*'

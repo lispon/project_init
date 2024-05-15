@@ -1,0 +1,21 @@
+---
+Language:        Cpp
+AccessModifierOffset: -3
+BasedOnStyle:  Google
+ColumnLimit:     100
+IndentWidth:     4
+SortIncludes: false
+TabWidth:        4
+# IncludeCategories:
+#   - Regex: '^<.*>'
+#     Priority: 1
+#   - Regex: '^<.*\.h>'
+#     Priority: 2
+#   - Regex: '^".*\.h"'
+#     Priority: 3
+#   - Regex: '^".*"'
+#     Priority: 4
+---
+Language: Proto
+# Don't format .proto files.
+DisableFormat: true
